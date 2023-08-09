@@ -1,0 +1,15 @@
+App.xcframework/ios-arm64 filter=lfs diff=lfs merge=lfs -text
+Toast.xcframework/ios-arm64_x86_64-simulator filter=lfs diff=lfs merge=lfs -text
+fluttertoast.xcframework/Info.plist filter=lfs diff=lfs merge=lfs -text
+shared_preferences_foundation.xcframework/ios-arm64 filter=lfs diff=lfs merge=lfs -text
+FlutterPluginRegistrant.xcframework/ios-arm64_x86_64-simulator filter=lfs diff=lfs merge=lfs -text
+fluttertoast.xcframework/ios-arm64_x86_64-simulator filter=lfs diff=lfs merge=lfs -text
+shared_preferences_foundation.xcframework/ios-arm64_x86_64-simulator filter=lfs diff=lfs merge=lfs -text
+App.xcframework/ios-arm64_x86_64-simulator filter=lfs diff=lfs merge=lfs -text
+Toast.xcframework/Info.plist filter=lfs diff=lfs merge=lfs -text
+shared_preferences_foundation.xcframework/Info.plist filter=lfs diff=lfs merge=lfs -text
+App.xcframework/Info.plist filter=lfs diff=lfs merge=lfs -text
+FlutterPluginRegistrant.xcframework/Info.plist filter=lfs diff=lfs merge=lfs -text
+FlutterPluginRegistrant.xcframework/ios-arm64 filter=lfs diff=lfs merge=lfs -text
+Toast.xcframework/ios-arm64 filter=lfs diff=lfs merge=lfs -text
+fluttertoast.xcframework/ios-arm64 filter=lfs diff=lfs merge=lfs -text

@@ -22,6 +22,356 @@
         "moduleName": "shared_preferences_foundation"
       },
       {
+        "kind": "TypeDecl",
+        "name": "UserDefaultsApi",
+        "printedName": "UserDefaultsApi",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29shared_preferences_foundation15UserDefaultsApiP6remove3keyySS_tKF",
+            "mangledName": "$s29shared_preferences_foundation15UserDefaultsApiP6remove3keyySS_tKF",
+            "moduleName": "shared_preferences_foundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared_preferences_foundation.UserDefaultsApi>",
+            "sugared_genericSig": "<Self where Self : shared_preferences_foundation.UserDefaultsApi>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setBool",
+            "printedName": "setBool(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29shared_preferences_foundation15UserDefaultsApiP7setBool3key5valueySS_SbtKF",
+            "mangledName": "$s29shared_preferences_foundation15UserDefaultsApiP7setBool3key5valueySS_SbtKF",
+            "moduleName": "shared_preferences_foundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared_preferences_foundation.UserDefaultsApi>",
+            "sugared_genericSig": "<Self where Self : shared_preferences_foundation.UserDefaultsApi>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDouble",
+            "printedName": "setDouble(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29shared_preferences_foundation15UserDefaultsApiP9setDouble3key5valueySS_SdtKF",
+            "mangledName": "$s29shared_preferences_foundation15UserDefaultsApiP9setDouble3key5valueySS_SdtKF",
+            "moduleName": "shared_preferences_foundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared_preferences_foundation.UserDefaultsApi>",
+            "sugared_genericSig": "<Self where Self : shared_preferences_foundation.UserDefaultsApi>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setValue",
+            "printedName": "setValue(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29shared_preferences_foundation15UserDefaultsApiP8setValue3key5valueySS_yptKF",
+            "mangledName": "$s29shared_preferences_foundation15UserDefaultsApiP8setValue3key5valueySS_yptKF",
+            "moduleName": "shared_preferences_foundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared_preferences_foundation.UserDefaultsApi>",
+            "sugared_genericSig": "<Self where Self : shared_preferences_foundation.UserDefaultsApi>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAll",
+            "printedName": "getAll(prefix:allowList:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String? : Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29shared_preferences_foundation15UserDefaultsApiP6getAll6prefix9allowListSDySSSgypSgGSS_SaySSGSgtKF",
+            "mangledName": "$s29shared_preferences_foundation15UserDefaultsApiP6getAll6prefix9allowListSDySSSgypSgGSS_SaySSGSgtKF",
+            "moduleName": "shared_preferences_foundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared_preferences_foundation.UserDefaultsApi>",
+            "sugared_genericSig": "<Self where Self : shared_preferences_foundation.UserDefaultsApi>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clear",
+            "printedName": "clear(prefix:allowList:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29shared_preferences_foundation15UserDefaultsApiP5clear6prefix9allowListSbSS_SaySSGSgtKF",
+            "mangledName": "$s29shared_preferences_foundation15UserDefaultsApiP5clear6prefix9allowListSbSS_SaySSGSgtKF",
+            "moduleName": "shared_preferences_foundation",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared_preferences_foundation.UserDefaultsApi>",
+            "sugared_genericSig": "<Self where Self : shared_preferences_foundation.UserDefaultsApi>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:29shared_preferences_foundation15UserDefaultsApiP",
+        "mangledName": "$s29shared_preferences_foundation15UserDefaultsApiP",
+        "moduleName": "shared_preferences_foundation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserDefaultsApiSetup",
+        "printedName": "UserDefaultsApiSetup",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setUp",
+            "printedName": "setUp(binaryMessenger:api:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterBinaryMessenger",
+                "printedName": "Flutter.FlutterBinaryMessenger",
+                "usr": "c:objc(pl)FlutterBinaryMessenger"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "shared_preferences_foundation.UserDefaultsApi?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserDefaultsApi",
+                    "printedName": "shared_preferences_foundation.UserDefaultsApi",
+                    "usr": "s:29shared_preferences_foundation15UserDefaultsApiP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3apiySo013FlutterBinaryK0_p_AA0deF0_pSgtFZ",
+            "mangledName": "$s29shared_preferences_foundation20UserDefaultsApiSetupC5setUp15binaryMessenger3apiySo013FlutterBinaryK0_p_AA0deF0_pSgtFZ",
+            "moduleName": "shared_preferences_foundation",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserDefaultsApiSetup",
+                "printedName": "shared_preferences_foundation.UserDefaultsApiSetup",
+                "usr": "s:29shared_preferences_foundation20UserDefaultsApiSetupC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:29shared_preferences_foundation20UserDefaultsApiSetupCACycfc",
+            "mangledName": "$s29shared_preferences_foundation20UserDefaultsApiSetupCACycfc",
+            "moduleName": "shared_preferences_foundation",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:29shared_preferences_foundation20UserDefaultsApiSetupC",
+        "mangledName": "$s29shared_preferences_foundation20UserDefaultsApiSetupC",
+        "moduleName": "shared_preferences_foundation",
+        "isOpen": true,
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -74,6 +424,305 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "getAll",
+            "printedName": "getAll(prefix:allowList:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String? : Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29shared_preferences_foundation23SharedPreferencesPluginC6getAll6prefix9allowListSDySSSgypSgGSS_SaySSGSgtF",
+            "mangledName": "$s29shared_preferences_foundation23SharedPreferencesPluginC6getAll6prefix9allowListSDySSSgypSgGSS_SaySSGSgtF",
+            "moduleName": "shared_preferences_foundation",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setBool",
+            "printedName": "setBool(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29shared_preferences_foundation23SharedPreferencesPluginC7setBool3key5valueySS_SbtF",
+            "mangledName": "$s29shared_preferences_foundation23SharedPreferencesPluginC7setBool3key5valueySS_SbtF",
+            "moduleName": "shared_preferences_foundation",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDouble",
+            "printedName": "setDouble(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29shared_preferences_foundation23SharedPreferencesPluginC9setDouble3key5valueySS_SdtF",
+            "mangledName": "$s29shared_preferences_foundation23SharedPreferencesPluginC9setDouble3key5valueySS_SdtF",
+            "moduleName": "shared_preferences_foundation",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setValue",
+            "printedName": "setValue(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29shared_preferences_foundation23SharedPreferencesPluginC8setValue3key5valueySS_yptF",
+            "mangledName": "$s29shared_preferences_foundation23SharedPreferencesPluginC8setValue3key5valueySS_yptF",
+            "moduleName": "shared_preferences_foundation",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29shared_preferences_foundation23SharedPreferencesPluginC6remove3keyySS_tF",
+            "mangledName": "$s29shared_preferences_foundation23SharedPreferencesPluginC6remove3keyySS_tF",
+            "moduleName": "shared_preferences_foundation",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clear",
+            "printedName": "clear(prefix:allowList:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29shared_preferences_foundation23SharedPreferencesPluginC5clear6prefix9allowListSbSS_SaySSGSgtF",
+            "mangledName": "$s29shared_preferences_foundation23SharedPreferencesPluginC5clear6prefix9allowListSbSS_SaySSGSgtF",
+            "moduleName": "shared_preferences_foundation",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAllPrefs",
+            "printedName": "getAllPrefs(prefix:allowList:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:29shared_preferences_foundation23SharedPreferencesPluginC11getAllPrefs6prefix9allowListSDySSypGSS_SaySSGSgtF",
+            "mangledName": "$s29shared_preferences_foundation23SharedPreferencesPluginC11getAllPrefs6prefix9allowListSDySSypGSS_SaySSGSgtF",
+            "moduleName": "shared_preferences_foundation",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -104,6 +753,7 @@
         "usr": "c:@M@shared_preferences_foundation@objc(cs)SharedPreferencesPlugin",
         "mangledName": "$s29shared_preferences_foundation23SharedPreferencesPluginC",
         "moduleName": "shared_preferences_foundation",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "ObjC"
@@ -114,6 +764,13 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "UserDefaultsApi",
+            "printedName": "UserDefaultsApi",
+            "usr": "s:29shared_preferences_foundation15UserDefaultsApiP",
+            "mangledName": "$s29shared_preferences_foundation15UserDefaultsApiP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -168,181 +825,5 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": [
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 698,
-      "length": 10,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 707,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 714,
-      "length": 20,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 733,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 740,
-      "length": 40,
-      "value": "\"Stacktrace: \""
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 779,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 1747,
-      "length": 43,
-      "value": "\"dev.flutter.pigeon.UserDefaultsApi.remove\""
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1971,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 2266,
-      "length": 44,
-      "value": "\"dev.flutter.pigeon.UserDefaultsApi.setBool\""
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2492,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2534,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 2848,
-      "length": 46,
-      "value": "\"dev.flutter.pigeon.UserDefaultsApi.setDouble\""
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3078,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3120,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 3439,
-      "length": 45,
-      "value": "\"dev.flutter.pigeon.UserDefaultsApi.setValue\""
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3667,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3709,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 4014,
-      "length": 43,
-      "value": "\"dev.flutter.pigeon.UserDefaultsApi.getAll\""
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4241,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4309,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/messages.g.swift",
-      "kind": "StringLiteral",
-      "offset": 4639,
-      "length": 42,
-      "value": "\"dev.flutter.pigeon.UserDefaultsApi.clear\""
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4864,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/messages.g.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4932,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/SharedPreferencesPlugin.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1471,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/mark\/.pub-cache\/hosted\/pub.dev\/shared_preferences_foundation-2.3.2\/darwin\/Classes\/SharedPreferencesPlugin.swift",
-      "kind": "Dictionary",
-      "offset": 1728,
-      "length": 3,
-      "value": "[]"
-    }
-  ]
+  "ConstValues": []
 }
